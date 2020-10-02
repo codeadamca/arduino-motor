@@ -41,7 +41,7 @@ void loop() {
 
 You will need to setup the following circuit using your Arduino:
 
-![Tinkercad Circuit](https://raw.githubusercontent.com/codeadamca/arduino-motor/main/tinkercad-motor.png)
+![Tinkercad Circuit](https://raw.githubusercontent.com/codeadamca/arduino-motor/main/tinkercad-motor.jpg)
 
 [View the Circuit on Tinkercad](https://www.tinkercad.com/things/h2MepgtwoSD)
 
