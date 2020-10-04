@@ -22,7 +22,7 @@ void setup() {
 void loop() {
   
   // Alternate between full speed and off
-  if (potValue == 0) {
+  if (motorValue == 0) {
     motorValue = 255;
   } else {
     motorValue = 0;
