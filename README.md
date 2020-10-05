@@ -22,7 +22,7 @@ void setup() {
 void loop() {
   
   // Alternate between full speed and off
-  if (potValue == 0) {
+  if (motorValue == 0) {
     motorValue = 255;
   } else {
     motorValue = 0;
@@ -41,7 +41,7 @@ void loop() {
 
 You will need to setup the following circuit using your Arduino:
 
-![Tinkercad Circuit](https://raw.githubusercontent.com/codeadamca/arduino-motor/main/tinkercad-motor.jpg)
+![Tinkercad Circuit](https://raw.githubusercontent.com/codeadamca/arduino-motor/main/tinkercad-motor.png)
 
 [View the Circuit on Tinkercad](https://www.tinkercad.com/things/h2MepgtwoSD)
 
