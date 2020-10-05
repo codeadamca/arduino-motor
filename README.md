@@ -7,18 +7,15 @@ A basic example of controlling a motor using an Arduino.
 Open up [Arduino Create](https://create.arduino.cc/editor/) and add the following code:
 
 ```csharp
-// Define variables to store the analog pin number and the speed of the motor
 int motorPin = 9;
 int motorValue = 0;
 
-// The setup function runs once when you press reset or power the board
 void setup() {
   
   Serial.begin(9600);
  
 }
 
-// The loop function runs over and over again forever
 void loop() {
   
   // Alternate between full speed and off
@@ -28,7 +25,6 @@ void loop() {
     motorValue = 0;
   }
   
-  // Set the moroto speed
   analogWrite(motorPin, motorValue);  
   Serial.println(motorValue);
  
