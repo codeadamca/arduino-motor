@@ -1,4 +1,4 @@
-# arduino-motor
+# Arduino and a Motor
 
 A basic example of controlling a motor using an Arduino.
 
