@@ -37,17 +37,19 @@ void loop() {
 
 You will need to setup the following circuit using your Arduino:
 
-![Tinkercad Circuit](https://raw.githubusercontent.com/codeadamca/arduino-motor/main/tinkercad-motor.png)
+![Tinkercad Circuit](_readme/tinkercad-motor.png)
 
-[View the Circuit on Tinkercad](https://www.tinkercad.com/things/h2MepgtwoSD)
+> [View the Circuit on Tinkercad](https://www.tinkercad.com/things/h2MepgtwoSD)
 
+> Full tutorial URL:  
+> https://codeadam.ca/learning/arduino-motor.html
 
-## Tutorial Requirements:
+***
+
+## Repo Resources
 
 * [Visual Studio Code](https://code.visualstudio.com/) or [Brackets](http://brackets.io/) (or any code editor)
 * [Arduino Create](https://create.arduino.cc/editor) 
-
-Full tutorial URL: https://codeadam.ca/learning/arduino-motor.html
 
 <a href="https://codeadam.ca">
 <img src="https://codeadam.ca/images/code-block.png" width="100">
