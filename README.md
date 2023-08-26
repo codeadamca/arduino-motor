@@ -11,25 +11,25 @@ int motorPin = 9;
 int motorValue = 0;
 
 void setup() {
-  
+
   Serial.begin(9600);
- 
+
 }
 
 void loop() {
-  
+
   // Alternate between full speed and off
   if (motorValue == 0) {
     motorValue = 255;
   } else {
     motorValue = 0;
   }
-  
-  analogWrite(motorPin, motorValue);  
+
+  analogWrite(motorPin, motorValue);
   Serial.println(motorValue);
- 
+
   delay(1000);
- 
+
 }
 ```
 
@@ -44,12 +44,12 @@ You will need to setup the following circuit using your Arduino:
 > Full tutorial URL:  
 > https://codeadam.ca/learning/arduino-motor.html
 
-***
+---
 
 ## Repo Resources
 
-* [Visual Studio Code](https://code.visualstudio.com/) or [Brackets](http://brackets.io/) (or any code editor)
-* [Arduino Create](https://create.arduino.cc/editor) 
+- [Visual Studio Code](https://code.visualstudio.com/) or [Brackets](http://brackets.io/) (or any code editor)
+- [Arduino Create](https://create.arduino.cc/editor)
 
 <a href="https://codeadam.ca">
 <img src="https://codeadam.ca/images/code-block.png" width="100">
